@@ -10,9 +10,9 @@ function NavBar(){
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav">
-                        <NavBarItem url="/" label="Home"/>
-                        <NavBarItem url="/cadastro-usuario" label="Cadastrar Usuário"/>
+                    <ul className="navbar-nav">
+                        <NavBarItem url="/home" label="Home"/>
+                        <NavBarItem url="/cadastro-usuarios" label="Cadastrar Usuário"/>
                         <NavBarItem url="/" label="Usuários"/>
                         <NavBarItem url="/" label="Lançamentos"/>
                         <NavBarItem url="/login" label="Login"/>
